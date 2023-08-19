@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hackaton</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="icon" href="/img/img.jpg">
+
+</head>
+
+<body>
+    <header>
+        <section>
+            <nav>
+                <ul>
+                    <li><a onclick="window.location.href = './profile.html' ">Personal </a></li>
+                    <li><a href="">Bloging App</a></li>
+                </ul>
+                <div class="user">
+                    <h6 id="h1">Hey User</h6>
+                    <img src="https://cdn.landesa.org/wp-content/uploads/default-user-image.png" id="img" onclick="window.location.href = './profileManage.html' ">
+                </div>
+            </nav>
+
+            <!-- ------------------ -->
+            <!-- ------------------ -->
+            <!-- ------------------ -->
+            <!-- ------------------ -->
+
+
+
+
+            <div class="profile_post_follow_bx">
+                <div class="profile_bx">
+                    <div class="profile_card">
+                        <img src="https://cdn.landesa.org/wp-content/uploads/default-user-image.png" class="profile_img" id="img1">
+                        <h5 id="h2">User Name</h5>
+                        <p id="ab">I am a web developer Learning HTML CSS AND JS</p>
+
+                        <button id="lO">Logout</button>
+                    </div>
+                    <div class="activity_bx">
+                        <div class="activity_card_bx">
+                            <i class="fa-solid fa-eye"></i>
+                            <h6>Acitivity</h6>
+                        </div>
+                        <div class="activity_card_bx">
+                            <i class="fa-solid fa-bolt"></i>
+                            <h6>Moments</h6>
+                        </div>
+                        <div class="activity_card_bx">
+                            <i class="fa-solid fa-user-group"></i>
+                            <h6>Friends</h6>
+                        </div>
+                        <div class="activity_card_bx" onclick="window.location.href = './profile.html' ">
+                            <i class="fa-solid fa-gear"></i>
+                            <h6>Edit Profile</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="post_follow_bx">
+                    <div class="post">
+                        <nav>
+                            <ul>
+                                <li><a href="">Personal</a></li>
+                                <li><a href="">Bloging</a></li>
+                                <li><a href="">App</a></li>
+                                <!-- <li><a href="">Likes</a></li> -->
+                            </ul>
+                            <i class="fa fa-ellipsis"></i>
+                        </nav>
+
+                        <div class="post_main_bx" id="post_here">
+
+                            <div class="home_page_first_bx">
+                                <img id="img2" class="home_profile_picture"
+                                    src="https://cdn.landesa.org/wp-content/uploads/default-user-image.png">
+                                <div class="write_tweet_bx">
+                                    <h3 onclick="location.replace('./tpost.html')">Create a Post</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btnR" onclick="window.location.reload()" id="showBTN">Reload Post <i class="fa fa-reload"></i></button>
+                    </div>
+                </div>
+        </section>
+    </header>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="sweetalert2.all.min.js"></script>
+    <script type="module" src="main.js"></script>
+</body>
+
+</html>
